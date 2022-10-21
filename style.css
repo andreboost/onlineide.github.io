@@ -1,0 +1,142 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&subset=latin,cyrillic);
+ 
+*{margin: 0;
+ padding: 0;
+}
+ 
+html, body {
+    padding: 0;
+    margin: 0;
+}
+ 
+img {
+    max-width: 100%;
+}
+ 
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+ 
+* {
+    font-family: "Roboto Condensed", Arial, sans-serif;
+    box-sizing: border-box;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+ 
+}
+ 
+#page-wrapper {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+ 
+html {
+ 
+}
+}
+ 
+#page-wrapper {
+    min-height: 100%;
+}
+ 
+#page-wrapper {
+ 
+}
+ 
+body {
+    height: 100%;
+    background-image:url(https://funart.pro/uploads/posts/2020-04/1587306610_13-p-belie-foni-dlya-saitov-36.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 60% 0%;
+}
+/* Primary menu */
+ 
+#primary-menu {
+    background: rgba(51, 51, 51, 0.47);
+    height: 75px;
+    width: 1000px;
+    margin: 0 auto;
+    position: static;
+}
+ 
+#primary-menu > ul {
+        padding: 0;
+        margin; 0;
+        font-size: 0;
+        text-align: center;
+}
+ 
+#primary-menu > ul > li {
+    display: inline-block;
+    list-style: none;
+    font-size: 16px;
+}
+ 
+#primary-menu > ul > li a {
+    color: #fff;
+    text-decoration: none;
+    height: 75px;
+    line-height: 75px;
+    padding: 0 15px;
+ 
+}
+ 
+#primary-menu > ul > li a:hover{
+    color:#333;
+    background-color: #fff;
+}
+/* Slider */
+ 
+
+
+ 
+/* Content */
+#content-wrapper {
+    background-color: white;
+    
+}
+ 
+#content, #sidebar {
+    float: left;
+    padding: 40px;
+}
+ 
+#content {
+    width: 75%;
+ 
+}
+ 
+textarea{
+    resize: none;
+    width: 80%;
+    height: 300px;
+}
+
+#sidebar {
+    
+    width: 25%;
+    
+}
+ 
+.clear {
+    clear: both;
+}
+ 
+/* Footer */
+ 
+#footer {
+    background: rgba(52, 52, 52, 0.49);
+    padding: 40px;
+    color: #fff;
+}
+
+
+
+
+
