@@ -39,10 +39,11 @@
                         <label>Введите Ваш имейл</label>
                         <input type="email" name="auth_email" placeholder="Введите Ваш имейл" required >
                         <label>Введите Ваш пароль</label>
-                        <input type="password" name="auth_pass" placeholder="Введите пароль" required >
-                        <button class="form_auth_button" type="submit" name="form_auth_submit">Войти</button>
+                        <input id="passwordBox" type="password" name="auth_pass" placeholder="Введите пароль" required >
+                        <button onclick="return CheckPassword();" class="form_auth_button" type="submit" name="form_auth_submit">Войти</button>
                       </form>
                     </div>
+                    <script src="check-password.js"></script>
                   </div>
             </div>
             <div class="clear"></div>
