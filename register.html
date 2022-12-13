@@ -35,16 +35,17 @@
                 <div class="form_auth_block">
                     <div class="form_auth_block_content">
                       <p class="form_auth_block_head_text">Регистрация</p>
-                      <form class="form_auth_style" action="#" method="post">
+                      <form class="form_auth_style" action="#" method="post" onsubmit="return checkPassword(this);">
                         <label>Введите Ваш имейл</label>
                         <input type="email" name="auth_email" placeholder="Введите Ваш имейл" required >
                         <label>Введите Ваш логин</label>
                         <input type="text" name="auth_log" placeholder="Введите логин" required >
                         <label>Введите Ваш пароль</label>
-                        <input type="password" name="auth_pass" placeholder="Введите пароль" required >
+                        <h4>Input Password and Submit [7 to 15 characters which contain at least one numeric digit and a special character]</h4>
+                        <input  id="passK" type="password" name="auth_pass" placeholder="Введите пароль" required >
                         <label>Введите Ваш пароль повторно</label>
-                        <input type="password" name="auth_pass" placeholder="Введите пароль повторно" required >
-                        <button class="form_auth_button" type="submit" name="form_auth_submit">Зарегистрироваться</button>
+                        <input  type="password" name="auth_pass" placeholder="Введите пароль повторно" required >
+                        <button onclick="return CheckPassword();" class="form_auth_button" type="submit" name="form_auth_submit">Зарегистрироваться</button>
                       </form>
                     </div>
                   </div>
@@ -56,5 +57,6 @@
             <footer id="footer">2022</footer>
         </div>
     </div>
+    <script src="check-password2.js"></script>
 </body>
 </html>
